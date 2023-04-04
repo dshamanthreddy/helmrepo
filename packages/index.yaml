@@ -3,10 +3,10 @@ entries:
   adotcollector:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-04T12:30:04.855287-04:00"
+    created: "2023-04-04T13:04:18.475084-04:00"
     description: A Helm chart for collecting metrics using ADOT Collector to send
       to AWS
-    digest: f1afce064df7dfcdf8470d386b7781695b94ec59232eed7a69b8b82dc30e587a
+    digest: 9600d0d3f3b10367cd696a902be6f8e8fea7dc794605b1c3c0602d192b20533e
     kubeVersion: '>=1.23.0-0'
     maintainers:
     - email: devagari@amazon.com
@@ -16,4 +16,4 @@ entries:
     urls:
     - adotcollector-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-04T12:30:04.851155-04:00"
+generated: "2023-04-04T13:04:18.473699-04:00"
