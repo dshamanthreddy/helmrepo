@@ -14,3 +14,8 @@ spec:
         cpu: "1"
       requests:
         cpu: "1" 
+
+
+
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
