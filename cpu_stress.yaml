@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stress-cpu
+  namespace: default
+spec:
+  containers:
+  - name: stress
+    image: busybox
+    command: ["stress"]
+    args: ["-c", "100"]
+    resources:
+      limits:
+        cpu: "1"
+      requests:
+        cpu: "1" 
